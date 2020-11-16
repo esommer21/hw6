@@ -6,6 +6,7 @@ window.addEventListener("load", function() {
 
 document.querySelector("#play").addEventListener("click", function() {
 	video.play()
+	
 });
 
 document.querySelector("#pause").addEventListener("click", function() {
@@ -13,5 +14,8 @@ document.querySelector("#pause").addEventListener("click", function() {
 	
 });
 
+document.querySelector("#volume").addEventListener("click", function() {
+	video.volume
 
 
+});
