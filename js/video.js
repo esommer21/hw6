@@ -21,3 +21,4 @@ function play() {
 function pause() {
     vid.pause();
 }
+
