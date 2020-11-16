@@ -14,8 +14,5 @@ document.querySelector("#pause").addEventListener("click", function() {
 	
 });
 
-document.querySelector(".span"){
-	video.volume
-
-
-});
+document.querySelector("#slower").addEventListener("click", function() {
+	video.playbackRate()= .1
