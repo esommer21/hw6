@@ -14,7 +14,7 @@ document.querySelector("#pause").addEventListener("click", function() {
 	
 });
 
-document.querySelector("#volume").addEventListener("click", function() {
+document.querySelector(".span"){
 	video.volume
 
 
