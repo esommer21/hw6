@@ -15,5 +15,9 @@ document.querySelector("#pause").addEventListener("click", function() {
 });
 
 document.querySelector("#slower").addEventListener("click", function() {
-	video.playbackRate= .9;
+	video.playbackRate= playbackspeed * .1;
+});
+
+document.querySelector("#slower").addEventListener("click", function() {
+	video.playbackRate= playbackspeed * 1.1;
 });
