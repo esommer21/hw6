@@ -5,14 +5,15 @@ window.addEventListener("load", function() {
 });
 
 document.querySelector("#play").addEventListener("click", function() {
-	video.play()
+	video.play();
 	
 });
 
 document.querySelector("#pause").addEventListener("click", function() {
-	video.pause()
+	video.pause();
 	
 });
 
 document.querySelector("#slower").addEventListener("click", function() {
-	video.playbackRate()= .1
+	video.playbackRate()= .1;
+});
