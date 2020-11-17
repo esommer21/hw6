@@ -18,6 +18,6 @@ document.querySelector("#slower").addEventListener("click", function() {
 	video.playbackRate= video.playbackRate * .1;
 });
 
-document.querySelector("#slower").addEventListener("click", function() {
+document.querySelector("#faster").addEventListener("click", function() {
 	video.playbackRate= video.playbackRate * 1.1;
 });
