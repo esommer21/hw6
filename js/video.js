@@ -38,8 +38,8 @@ document.querySelector("#mute").addEventListener("click", function() {
 
 document.querySelector("#mute").addEventListener("click", function() {
 	if (video.muted == false) {
-		document.getElementById("mute").innerText="unmute" }
-		else{
 		document.getElementById("mute").innerText="Mute" }
+		else{
+		document.getElementById("mute").innerText="unmute" }
 	
 });			
