@@ -29,11 +29,10 @@ document.querySelector("#skip").addEventListener("click", function() {
 
 
 document.querySelector("#mute").addEventListener("click", function() {
-	if video.muted == false:
-		video.muted
-	if video.muted == true:
-		video.unmuted
-	
+	if (video.muted == false) {
+		video.muted= true}
+		else {
+		video.muted = false}	
 });
 
 
