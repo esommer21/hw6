@@ -31,10 +31,10 @@ document.querySelector("#skip").addEventListener("click", function() {
 document.querySelector("#mute").addEventListener("click", function() {
 	if (video.muted == false) {
 		video.muted= true
-		mute.value='Unmute'}
+		elem.value='Unmute'}
 		else {
 		video.muted = false
-		mute.value='Mute'}
+		elem.value='Mute'}
 });
 
 
