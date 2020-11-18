@@ -30,11 +30,16 @@ document.querySelector("#skip").addEventListener("click", function() {
 
 document.querySelector("#mute").addEventListener("click", function() {
 	if (video.muted == false) {
-		video.muted= true
-		document.getElementById("#mute").value="unmute" }
+		video.muted= true}
 		else {
-		video.muted = false
-		document.getElementById("#mute").value="Mute"}
+		video.muted = false}
+		
 });
 
-
+document.querySelector("#mute").addEventListener("click", function() {
+	if (video.muted == false) {
+		document.getElementById("#mute").value="unmute" }
+		else{
+		document.getElementById("#mute").value="Mute" }
+	
+});			
