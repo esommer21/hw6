@@ -26,3 +26,14 @@ document.querySelector("#faster").addEventListener("click", function() {
 document.querySelector("#skip").addEventListener("click", function() {
 	video.currentTime = video.currentTime + 5
 });
+
+
+document.querySelector("#mute").addEventListener("click", function() {
+	if video.muted == false:
+		video.muted
+	if video.muted == true:
+		video.unmuted
+	
+});
+
+
