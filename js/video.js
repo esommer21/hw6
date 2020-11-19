@@ -2,11 +2,12 @@ var video;
 
 window.addEventListener("load", function() {
 	video = document.querySelector("#myVideo");
-	document.getElementById("volumeSlider").innerHTML = video.volume;
+	
 });
 
 document.querySelector("#play").addEventListener("click", function() {
 	video.play();
+	video.volume = document.getElementById("volumeSlider").value
 	document.getElementById("volume").innerText= ((video.volume)*100 + "%")
 	
 });
