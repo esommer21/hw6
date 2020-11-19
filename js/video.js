@@ -37,8 +37,7 @@ document.querySelector("#mute").addEventListener("click", function() {
 		document.getElementById("mute").innerText="Mute"}
 		
 });
-
-
-
-
+document.querySelector("#old").addEventListener("click", function() {
+	document.getElementById("old").classList.toggle("oldTime")
 	
+});	
