@@ -38,6 +38,6 @@ document.querySelector("#mute").addEventListener("click", function() {
 		
 });
 document.querySelector("#old").addEventListener("click", function() {
-	document.getElementById("old").classList.toggle("oldTime")
+	document.getElementById("myVideo").classList.toggle("oldTime")
 	
 });	
