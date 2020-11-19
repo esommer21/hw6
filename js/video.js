@@ -2,6 +2,7 @@ var video;
 
 window.addEventListener("load", function() {
 	video = document.querySelector("#myVideo");
+	document.getElementById("volumeSlider").innerHTML = video.value;
 });
 
 document.querySelector("#play").addEventListener("click", function() {
