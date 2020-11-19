@@ -49,13 +49,8 @@ document.querySelector("#original").addEventListener("click", function() {
 	
 });							     
 	
-window.setInterval(changevolume(), 10);
 
-function changevolume () {
-	var x = document.getElementById("volumeSlider");
-	var y = x / 10;
-	video.volume= y;
-}
+document.querySelector("#volumeSlider").addEventListener("change",function() {
+	video.volume = document.getElementById("volumeSlider").value
 	
-	
-						     
+});
