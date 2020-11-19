@@ -41,3 +41,12 @@ document.querySelector("#old").addEventListener("click", function() {
 	document.getElementById("myVideo").classList.toggle("oldTime")
 	
 });	
+
+document.querySelector("#original").addEventListener("click", function() 
+	document.getElementById("myVideo").classList.toggle("video")	
+});	
+						     
+						     
+						     
+						     
+						     
